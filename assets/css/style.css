@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #e6e6fa;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #660033;
+    margin-top: 2rem;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: #660033;
+}
+
+.scoreboard > div {
+    font-size: 2rem;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    border: 2px solid #660033;
+    border-radius: 10px;
+    color: #660033;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.choice {
+    border: 2px solid #660033;
+    border-radius: 10px;
+    margin: 0 2rem;
+    padding: 2rem;
+    background-color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    background-color: #660033;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.choice:active {
+    transform: scale(0.9);
+}
+
+.result {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #660033;
+}
+
+.winner {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #660033;
+}
+
+.play-again {
+    display: none;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: #660033;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
